@@ -1,0 +1,78 @@
+body.disconnected {
+	opacity: 0.5; background-color: rgb(153, 153, 153);
+}
+table.data {
+	width: auto;
+}
+table.data td[align=right] {
+	text-align: right; font-family: monospace;
+}
+.shiny-output-error {
+	color: red;
+}
+.shiny-output-error::before {
+	font-weight: bold; content: "Error: ";
+}
+.jslider {
+	margin-top: 18px;
+}
+.jslider-value {
+	background-color: transparent !important;
+}
+.recalculating {
+	transition:opacity 250ms 500ms; opacity: 0.3; -moz-transition: opacity 250ms ease 500ms; -webkit-transition: opacity 250ms ease 500ms; -o-transition: opacity 250ms ease 500ms;
+}
+span.jslider {
+	margin-bottom: 12px;
+}
+.slider-animate-container {
+	text-align: right; margin-top: -9px;
+}
+.slider-animate-button {
+	opacity: 0.5;
+}
+.slider-animate-button .pause {
+	display: none;
+}
+.playing.slider-animate-button .pause {
+	display: inline;
+}
+.slider-animate-button .play {
+	display: inline;
+}
+.playing.slider-animate-button .play {
+	display: none;
+}
+.shiny-file-input-progress.progress {
+	visibility: hidden; position: relative;
+}
+.shiny-file-input-progress.progress .bar {
+	overflow: hidden;
+}
+.shiny-file-input-progress.progress label {
+	padding: 0px 6px; left: 0px; top: 0px; right: 0px; bottom: 0px; font-size: 12px; display: block; position: absolute;
+}
+.shiny-file-input-progress.progress .bar-danger.bar {
+	transition:none; -moz-transition: none; -webkit-transition: none; -o-transition: none;
+}
+.crosshair {
+	cursor: crosshair;
+}
+.well input[type='text'] {
+	max-width: 95%;
+}
+.well input[type='number'] {
+	max-width: 95%;
+}
+.well select {
+	max-width: 95%;
+}
+.qt pre {
+	font-family: monospace !important;
+}
+.qt code {
+	font-family: monospace !important;
+}
+.selectize-control {
+	margin-bottom: 10px;
+}
